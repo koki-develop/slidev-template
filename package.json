@@ -2,6 +2,9 @@
   "name": "slidev-template",
   "type": "module",
   "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
