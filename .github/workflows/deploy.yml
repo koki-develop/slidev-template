@@ -20,14 +20,9 @@ jobs:
     steps:
       # setup
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
-        with:
-          cache: pnpm
-          node-version-file: package.json
+      - uses: ./.github/actions/setup
 
       # build
-      - run: pnpm install
       - run: pnpm run build --base /${{github.event.repository.name}}/
 
       # deploy
