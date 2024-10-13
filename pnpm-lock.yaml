@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@iconify-json/logos':
+        specifier: ^1.2.3
+        version: 1.2.3
       '@slidev/cli':
         specifier: ^0.50.0-beta.3
         version: 0.50.0-beta.3(@babel/parser@7.25.8)(@nuxt/kit@3.13.2(rollup@4.24.0))(@types/markdown-it@14.1.2)(@types/node@18.19.55)(@vue/compiler-sfc@3.5.12)(postcss@8.4.47)(rollup@4.24.0)(sass@1.79.5)
@@ -486,6 +489,9 @@ packages:
 
   '@iconify-json/carbon@1.2.3':
     resolution: {integrity: sha512-smQ1nMHZn1BcTBqr13SP/7z3F1mbGCjUT1PdcpmbRoBrB4nAA9ErkTvUp49zxCQ/6VHcJsVzLV2zVXY3jJ4Bnw==}
+
+  '@iconify-json/logos@1.2.3':
+    resolution: {integrity: sha512-JLHS5hgZP1b55EONAWNeqBUuriRfRNKWXK4cqYx0PpVaJfIIMiiMxFfvoQiX/bkE9XgkLhcKmDUqL3LXPdXPwQ==}
 
   '@iconify-json/ph@1.2.1':
     resolution: {integrity: sha512-x0DNfwWrS18dbsBYOq3XGiZnGz4CgRyC+YSl/TZvMQiKhIUl1woWqUbMYqqfMNUBzjyk7ulvaRovpRsIlqIf8g==}
@@ -3391,6 +3397,10 @@ snapshots:
   '@floating-ui/utils@0.2.8': {}
 
   '@iconify-json/carbon@1.2.3':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/logos@1.2.3':
     dependencies:
       '@iconify/types': 2.0.0
 
