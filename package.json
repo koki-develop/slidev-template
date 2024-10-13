@@ -2,6 +2,7 @@
   "name": "slidev-template",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@9.12.1",
   "engines": {
     "node": "22.x"
   },
