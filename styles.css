@@ -1,0 +1,24 @@
+.light .slidev-layout {
+  a {
+    color: inherit;
+  }
+}
+
+.slidev-page .slidev-layout {
+  p,
+  a,
+  li {
+    @apply text-2xl;
+  }
+
+  li {
+    @apply leading-relaxed;
+  }
+
+  &.new-section {
+    @apply flex flex-col items-center justify-center;
+    h1 {
+      @apply text-5xl;
+    }
+  }
+}
