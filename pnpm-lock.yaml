@@ -22,8 +22,8 @@ importers:
         version: 3.5.12(typescript@5.6.3)
     devDependencies:
       prettier:
-        specifier: 3.3.3
-        version: 3.3.3
+        specifier: 3.4.2
+        version: 3.4.2
 
 packages:
 
@@ -2382,8 +2382,8 @@ packages:
   pptxgenjs@3.12.0:
     resolution: {integrity: sha512-ZozkYKWb1MoPR4ucw3/aFYlHkVIJxo9czikEclcUVnS4Iw/M+r+TEwdlB3fyAWO9JY1USxJDt0Y0/r15IR/RUA==}
 
-  prettier@3.3.3:
-    resolution: {integrity: sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==}
+  prettier@3.4.2:
+    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3825,7 +3825,7 @@ snapshots:
       lz-string: 1.5.0
       mermaid: 11.3.0
       monaco-editor: 0.52.0
-      prettier: 3.3.3
+      prettier: 3.4.2
       recordrtc: 5.6.2
       shiki: 1.22.0
       shiki-magic-move: 0.4.5(shiki@1.22.0)(vue@3.5.12(typescript@5.6.3))
@@ -5859,7 +5859,7 @@ snapshots:
       image-size: 1.1.1
       jszip: 3.10.1
 
-  prettier@3.3.3: {}
+  prettier@3.4.2: {}
 
   prism-theme-vars@0.2.5: {}
 
