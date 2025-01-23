@@ -16,7 +16,7 @@ Presentation slides for developers
 
 ---
 layout: presenter
-presenterImage: https://koki.me/images/profile.jpg
+presenterImage: https://koki.me/profile.png
 hideInToc: true
 ---
 

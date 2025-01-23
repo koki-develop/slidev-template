@@ -22,3 +22,7 @@
     }
   }
 }
+
+img[src="https://koki.me/profile.png"] {
+  background-color: white;
+}
