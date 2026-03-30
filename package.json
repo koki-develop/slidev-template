@@ -4,7 +4,7 @@
   "private": true,
   "packageManager": "pnpm@10.32.1",
   "engines": {
-    "node": "22.x"
+    "node": "v22.22.2"
   },
   "scripts": {
     "build": "slidev build",
